@@ -2,4 +2,9 @@ HOW TO PROCESS DATA WITH APACHE PIG :
 https://hortonworks.com/hadoop-tutorial/how-to-process-data-with-apache-pig/
 
 
+https://hortonworks.com/hadoop-tutorial/getting-started-hdf-sandbox/
+Login to Terminal:
+ssh root@127.0.0.1 -p 2222
+pwd: Test123
+
 
