@@ -1,0 +1,14 @@
+https://pig.apache.org/docs/r0.11.1/start.html
+
+
+Local Mode
+
+$ pig -x local id.pig
+Mapreduce Mode
+
+$ pig id.pig
+or
+$ pig -x mapreduce id.pig
+
+
+

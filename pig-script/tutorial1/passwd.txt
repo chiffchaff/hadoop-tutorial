@@ -1,0 +1,75 @@
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+puppet:x:52:52:Puppet:/var/lib/puppet:/sbin/nologin
+postgres:x:26:26:PostgreSQL Server:/var/lib/pgsql:/bin/bash
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/bin/bash
+splash:x:500:500:User for displaying splash page:/home/splash:/bin/bash
+hive:x:501:505::/home/hive:/bin/bash
+storm:x:502:505::/home/storm:/bin/bash
+zookeeper:x:503:505::/home/zookeeper:/bin/bash
+infra-solr:x:504:505::/home/infra-solr:/bin/bash
+oozie:x:505:505::/home/oozie:/bin/bash
+atlas:x:506:505::/home/atlas:/bin/bash
+ams:x:507:505::/home/ams:/bin/bash
+falcon:x:508:505::/home/falcon:/bin/bash
+ranger:x:509:505::/home/ranger:/bin/bash
+tez:x:510:505::/home/tez:/bin/bash
+zeppelin:x:511:505::/home/zeppelin:/bin/bash
+livy:x:512:505::/home/livy:/bin/bash
+spark:x:513:505::/home/spark:/bin/bash
+ambari-qa:x:1001:505::/home/ambari-qa:/bin/bash
+flume:x:515:505::/home/flume:/bin/bash
+kafka:x:516:505::/home/kafka:/bin/bash
+hdfs:x:517:505::/home/hdfs:/bin/bash
+sqoop:x:518:505::/home/sqoop:/bin/bash
+yarn:x:519:505::/home/yarn:/bin/bash
+mapred:x:520:505::/home/mapred:/bin/bash
+hbase:x:1002:505::/home/hbase:/bin/bash
+knox:x:522:505::/home/knox:/bin/bash
+hcat:x:523:505::/home/hcat:/bin/bash
+exim:x:93:93::/var/spool/exim:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/cache/rpcbind:/sbin/nologin
+slider:x:1003:489:SLIDER:/var/lib/slider:/bin/bash
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+hue:x:1004:487:Hue:/usr/lib/hue:/bin/bash
+apache:x:48:48:Apache:/var/www:/sbin/nologin
+admin:x:1005:1005::/home/admin:/bin/bash
+kms:x:1006:486:KMS:/var/lib/ranger/kms:/bin/bash
+xapolicymgr:x:1007:1007::/home/xapolicymgr:/bin/bash
+it1:x:1008:1008::/home/it1:/bin/bash
+legal1:x:1009:1009::/home/legal1:/bin/bash
+mktg1:x:1010:1010::/home/mktg1:/bin/bash
+network1:x:1011:1011::/home/network1:/bin/bash
+it2:x:1012:1008::/home/it2:/bin/bash
+legal2:x:1013:1009::/home/legal2:/bin/bash
+mktg2:x:1014:1010::/home/mktg2:/bin/bash
+network2:x:1015:1011::/home/network2:/bin/bash
+it3:x:1016:1008::/home/it3:/bin/bash
+legal3:x:1017:1009::/home/legal3:/bin/bash
+mktg3:x:1018:1010::/home/mktg3:/bin/bash
+network3:x:1019:1011::/home/network3:/bin/bash
+guest:x:1020:1012::/home/guest:/bin/bash
+amy_ds:x:1021:1021::/home/amy_ds:/bin/bash
+holger_gov:x:1022:1022::/home/holger_gov:/bin/bash
+maria_dev:x:1023:1023::/home/maria_dev:/bin/bash
+raj_ops:x:1024:1024::/home/raj_ops:/bin/bash
+shellinabox:x:499:485:Shellinabox:/var/lib/shellinabox:/sbin/nologin
+unit:x:1025:1025:Unit user for doing unit tests:/tmp:/bin/bash
